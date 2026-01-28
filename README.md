@@ -27,14 +27,11 @@ This solution uses Proxy ARP and DHCP Helper to allow a device connected via Eth
 1. Clone the repository:
    git clone https://github.com/LucaSchenetti/ETH-WIFI-Bridge-Raspberry-PI.git
    cd ETH-WIFI-Bridge-Raspberry-PI
+   
+2. Run the installer:
+   sudo bash setup_bridge.sh
 
-2. Make the script executable:
-   chmod +x bridge.sh
-
-3. Run the installer:
-   sudo ./bridge.sh
-
-4. Reboot your Raspberry Pi:
+3. Reboot your Raspberry Pi:
    sudo reboot
 
 
